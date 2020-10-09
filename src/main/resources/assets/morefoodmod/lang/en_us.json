@@ -1,5 +1,7 @@
 {
   "item.morefoodmod.salt": "Salt",
   "item.morefoodmod.tomato": "Tomato",
+  "item.morefoodmod.cooked_fish_sandwich": "Cooked Fish Sandwich",
+  "item.morefoodmod.raw_fish_sandwich": "Raw Fish Sandwich",
   "block.morefoodmod.salt_ore": "Salt Ore"
 }

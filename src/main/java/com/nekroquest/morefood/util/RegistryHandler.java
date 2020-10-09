@@ -3,6 +3,8 @@ package com.nekroquest.morefood.util;
 import com.nekroquest.morefood.MoreFood;
 import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
+import com.nekroquest.morefood.items.CookedFishSandwichBase;
+import com.nekroquest.morefood.items.RawFishSandwichBase;
 import com.nekroquest.morefood.items.SaltBase;
 import com.nekroquest.morefood.items.TomatoBase;
 import net.minecraft.block.Block;
@@ -26,6 +28,8 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> SALT = ITEMS.register("salt", SaltBase::new);
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", TomatoBase::new);
+    public static final RegistryObject<Item> COOKED_FISH_SANDWICH = ITEMS.register("cooked_fish_sandwich", CookedFishSandwichBase::new);
+    public static final RegistryObject<Item> RAW_FISH_SANDWICH = ITEMS.register("raw_fish_sandwich", RawFishSandwichBase::new);
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);

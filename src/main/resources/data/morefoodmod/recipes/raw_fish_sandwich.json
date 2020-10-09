@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " B ",
+    "CSX",
+    " K "
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "minecraft:bread"
+    },
+    "K":
+    {
+      "item": "minecraft:kelp"
+    },
+    "C":
+    {
+      "item": "minecraft:cod"
+    },
+    "S":
+    {
+      "item": "morefoodmod:salt"
+    },
+    "X":
+    {
+      "item": "minecraft:salmon"
+    }
+  },
+
+  "result":
+  {
+    "item": "morefoodmod:raw_fish_sandwich",
+    "count": 1
+  }
+}
