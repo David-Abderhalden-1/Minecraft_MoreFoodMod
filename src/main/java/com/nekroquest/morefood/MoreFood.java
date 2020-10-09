@@ -14,6 +14,7 @@ public class MoreFood
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "morefoodmod";
+    public static final String MOD_NAME = "MoreFood";
 
     public MoreFood() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

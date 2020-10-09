@@ -5,8 +5,14 @@ import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
 import com.nekroquest.morefood.items.SaltBase;
 import net.minecraft.block.Block;
+import net.minecraft.data.LootTableProvider;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.loot.*;
+import net.minecraft.loot.conditions.KilledByPlayer;
 import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.event.LootTableLoadEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,4 +37,9 @@ public class RegistryHandler {
 
     //Block Items
     public static final RegistryObject<Item> SALT_ORE_ITEM = ITEMS.register("salt_ore", () -> new SaltOreItemBase(SALT_ORE.get()));
+
+    //Events
+
+
 }
+
