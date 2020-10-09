@@ -1,6 +1,7 @@
 package com.nekroquest.morefood;
 
 import com.nekroquest.morefood.util.RegistryHandler;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

@@ -4,15 +4,9 @@ import com.nekroquest.morefood.MoreFood;
 import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
 import com.nekroquest.morefood.items.SaltBase;
+import com.nekroquest.morefood.items.TomatoBase;
 import net.minecraft.block.Block;
-import net.minecraft.data.LootTableProvider;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.loot.*;
-import net.minecraft.loot.conditions.KilledByPlayer;
-import net.minecraftforge.client.event.ColorHandlerEvent;
-import net.minecraftforge.event.LootTableLoadEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,6 +25,7 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> SALT = ITEMS.register("salt", SaltBase::new);
+    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", TomatoBase::new);
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);
