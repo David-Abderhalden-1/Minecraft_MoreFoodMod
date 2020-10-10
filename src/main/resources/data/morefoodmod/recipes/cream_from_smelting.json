@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morefoodmod:half_cream"
+  },
+  "result": "morefoodmod:cream",
+  "experience": 0.3,
+  "cookingtime": 1000
+}

@@ -1,9 +1,9 @@
  {
-   "type": "minecraft:smelting",
+   "type": "minecraft:smoking",
    "ingredient": {
      "item": "morefoodmod:raw_fish_sandwich"
    },
    "result": "morefoodmod:cooked_fish_sandwich",
-   "experience": 0.0,
-   "cookingtime": 200
+   "experience": 0.35,
+   "cookingtime": 100
  }

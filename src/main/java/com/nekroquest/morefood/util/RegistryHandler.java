@@ -3,10 +3,7 @@ package com.nekroquest.morefood.util;
 import com.nekroquest.morefood.MoreFood;
 import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
-import com.nekroquest.morefood.items.CookedFishSandwichBase;
-import com.nekroquest.morefood.items.RawFishSandwichBase;
-import com.nekroquest.morefood.items.SaltBase;
-import com.nekroquest.morefood.items.TomatoBase;
+import com.nekroquest.morefood.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -30,6 +27,10 @@ public class RegistryHandler {
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", TomatoBase::new);
     public static final RegistryObject<Item> COOKED_FISH_SANDWICH = ITEMS.register("cooked_fish_sandwich", CookedFishSandwichBase::new);
     public static final RegistryObject<Item> RAW_FISH_SANDWICH = ITEMS.register("raw_fish_sandwich", RawFishSandwichBase::new);
+    public static final RegistryObject<Item> CREAM = ITEMS.register("cream", CreamBase::new);
+    public static final RegistryObject<Item> HALF_CREAM = ITEMS.register("half_cream", HalfCreamBase::new);
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", CheeseBase::new);
+    public static final RegistryObject<Item> WHITE_CHEESE = ITEMS.register("white_cheese", WhiteCheeseBase::new);
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);

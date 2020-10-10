@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CC ",
+    "CC ",
+    "SS "
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "morefoodmod:cream"
+    },
+    "S":
+    {
+      "item": "morefoodmod:salt"
+    }
+  },
+
+  "result":
+  {
+    "item": "morefoodmod:white_cheese",
+    "count": 1
+  }
+}
