@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
+
 public class WhiteCheeseBase extends Item {
     public WhiteCheeseBase() {
         super(new Properties().group(ItemGroup.FOOD).food(new Food.Builder()
