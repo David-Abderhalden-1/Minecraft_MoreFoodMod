@@ -1,6 +1,6 @@
 modLoader="javafml" #mandatory
 
-loaderVersion="[34,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
 license="All rights reserved"
 
@@ -10,7 +10,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="morefoodmod" #mandatory
 
-version="1.16.3-1.0.0" #mandatory
+version="1.16.1-1.0.0" #mandatory
 
 displayName="More Food Mod" #mandatory
 
@@ -43,6 +43,6 @@ There are now more Food options for the player!
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"

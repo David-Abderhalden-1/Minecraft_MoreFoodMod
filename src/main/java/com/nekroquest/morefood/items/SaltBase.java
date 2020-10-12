@@ -6,6 +6,6 @@ import net.minecraft.item.ItemGroup;
 public class SaltBase extends Item {
 
     public SaltBase() {
-        super(new Item.Properties().group(ItemGroup.MATERIALS));
+        super(new Properties().group(ItemGroup.MATERIALS));
     }
 }

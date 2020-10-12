@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroup;
 public class TomatoBase extends Item {
 
     public TomatoBase() {
-        super(new Item.Properties()
+        super(new Properties()
                 .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(3)

@@ -1,12 +1,12 @@
 package com.nekroquest.morefood.items;
 
 import net.minecraft.item.Food;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.MilkBucketItem;
 
-public class HalfCreamBucketBase extends Item {
+public class HalfCreamBucketBase extends MilkBucketItem {
     public HalfCreamBucketBase() {
-        super(new Properties().maxStackSize(1).group(ItemGroup.FOOD).food(new Food.Builder()
+        super(new Properties().maxStackSize(1).group(ItemGroup.MATERIALS).food(new Food.Builder()
                 .hunger(0)
                 .setAlwaysEdible()
                 .saturation(1)

@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "morefoodmod:half_cream_bucket"
   },
-  "result": "morefoodmod:cream",
+  "result": "morefoodmod:cream_bucket",
   "experience": 0.3,
   "cookingtime": 1000
 }

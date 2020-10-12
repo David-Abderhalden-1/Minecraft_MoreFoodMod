@@ -7,7 +7,6 @@ import com.nekroquest.morefood.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,6 +28,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> COOKED_FISH_SANDWICH = ITEMS.register("cooked_fish_sandwich", CookedFishSandwichBase::new);
     public static final RegistryObject<Item> RAW_FISH_SANDWICH = ITEMS.register("raw_fish_sandwich", RawFishSandwichBase::new);
     public static final RegistryObject<Item> CREAM = ITEMS.register("cream", CreamBase::new);
+    public static final RegistryObject<Item> CREAM_BUCKET = ITEMS.register("cream_bucket", CreamBucketBase::new);
     public static final RegistryObject<Item> HALF_CREAM_BUCKET = ITEMS.register("half_cream_bucket", HalfCreamBucketBase::new);
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", CheeseBase::new);
     public static final RegistryObject<Item> WHITE_CHEESE = ITEMS.register("white_cheese", WhiteCheeseBase::new);

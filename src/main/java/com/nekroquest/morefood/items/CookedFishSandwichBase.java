@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroup;
 
 public class CookedFishSandwichBase extends Item {
     public CookedFishSandwichBase() {
-        super(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+        super(new Properties().group(ItemGroup.FOOD).food(new Food.Builder()
                 .hunger(7)
                 .saturation(11f)
                 .build())
