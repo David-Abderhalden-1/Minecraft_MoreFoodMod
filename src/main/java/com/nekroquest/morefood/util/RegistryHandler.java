@@ -4,8 +4,12 @@ import com.nekroquest.morefood.MoreFood;
 import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
 import com.nekroquest.morefood.items.*;
+import com.nekroquest.morefood.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,6 +36,11 @@ public class RegistryHandler {
     public static final RegistryObject<Item> HALF_CREAM_BUCKET = ITEMS.register("half_cream_bucket", HalfCreamBucketBase::new);
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", CheeseBase::new);
     public static final RegistryObject<Item> WHITE_CHEESE = ITEMS.register("white_cheese", WhiteCheeseBase::new);
+    public static final RegistryObject<Item> OLD_FLESH = ITEMS.register("old_flesh", OldFleshBase::new);
+    public static final RegistryObject<Item> FLESH = ITEMS.register("flesh", FleshBase::new);
+
+    //Tools
+    public static final RegistryObject<SwordItem> SCRAPER = ITEMS.register("scraper", () -> new SwordItem(ModItemTier.SCRAPER, 0, 0, new Item.Properties().group(ItemGroup.TOOLS).setNoRepair()));
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);
