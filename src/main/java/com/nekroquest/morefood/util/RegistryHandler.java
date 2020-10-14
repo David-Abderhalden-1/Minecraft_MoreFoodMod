@@ -1,6 +1,8 @@
 package com.nekroquest.morefood.util;
 
 import com.nekroquest.morefood.MoreFood;
+import com.nekroquest.morefood.blocks.HerbBase;
+import com.nekroquest.morefood.blocks.HerbItemBase;
 import com.nekroquest.morefood.blocks.SaltOreBase;
 import com.nekroquest.morefood.blocks.SaltOreItemBase;
 import com.nekroquest.morefood.items.*;
@@ -38,15 +40,20 @@ public class RegistryHandler {
     public static final RegistryObject<Item> WHITE_CHEESE = ITEMS.register("white_cheese", WhiteCheeseBase::new);
     public static final RegistryObject<Item> OLD_FLESH = ITEMS.register("old_flesh", OldFleshBase::new);
     public static final RegistryObject<Item> FLESH = ITEMS.register("flesh", FleshBase::new);
+    public static final RegistryObject<Item> PARSLEY = ITEMS.register("parsley", ParsleyBase::new);
+    public static final RegistryObject<Item> BASIL = ITEMS.register("basil", BasilBase::new);
+    public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary", RosemaryBase::new);
 
     //Tools
     public static final RegistryObject<SwordItem> SCRAPER = ITEMS.register("scraper", () -> new SwordItem(ModItemTier.SCRAPER, 0, 0, new Item.Properties().group(ItemGroup.TOOLS).setNoRepair()));
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);
+    public static final RegistryObject<Block> HERB = BLOCKS.register("herb", HerbBase::new);
 
     //Block Items
     public static final RegistryObject<Item> SALT_ORE_ITEM = ITEMS.register("salt_ore", () -> new SaltOreItemBase(SALT_ORE.get()));
+    public static final RegistryObject<Item> HERB_ITEM = ITEMS.register("herb", () -> new HerbItemBase(HERB.get()));
 
     //Events
 

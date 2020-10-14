@@ -11,5 +11,9 @@
   "item.morefoodmod.scraper": "Scraper",
   "item.morefoodmod.old_flesh": "Old Flesh",
   "item.morefoodmod.flesh": "Flesh",
-  "block.morefoodmod.salt_ore": "Salt Ore"
+  "item.morefoodmod.basil": "Basil",
+  "item.morefoodmod.parsley": "Parsley",
+  "item.morefoodmod.rosemary": "Rosemary",
+  "block.morefoodmod.salt_ore": "Salt Ore",
+  "block.morefoodmod.herb": "Herb"
 }
