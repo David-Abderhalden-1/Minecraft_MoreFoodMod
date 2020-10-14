@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "morefoodmod:block/herb"
+    "layer0": "morefoodmod:blocks/herb"
   }
 }

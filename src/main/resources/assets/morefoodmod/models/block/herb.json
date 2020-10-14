@@ -1,6 +1,6 @@
 {
   "parent": "block/tinted_cross",
   "textures": {
-    "all": "morefoodmod:blocks/herb"
+    "cross": "morefoodmod:blocks/herb"
   }
 }

@@ -1,5 +1,6 @@
 package com.nekroquest.morefood.blocks;
 
+import javafx.geometry.Side;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 
@@ -11,6 +12,8 @@ public class HerbBase extends TallGrassBlock {
                 .harvestLevel(0)
                 .notSolid()
                 .zeroHardnessAndResistance()
+                .doesNotBlockMovement()
         );
     }
+
 }
